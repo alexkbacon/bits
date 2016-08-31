@@ -1,4 +1,4 @@
 git add -A
-git commit -m 'Comment model'
+git commit -m 'added controller and partials'
 git push origin comment
 
