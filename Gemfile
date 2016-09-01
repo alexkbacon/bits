@@ -13,6 +13,11 @@ gem 'font-awesome-sass', '~> 4.5'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 gem 'devise', '~> 4.2'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'will_paginate', '~> 3.1'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
+
+
 
 
 group :production do

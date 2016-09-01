@@ -3,7 +3,10 @@ class PagesController < ApplicationController
   
   
   def index
-    @article = Article.last(3)
+    if current_user
+      redirect_to articles_path
+    end
+    @articles = Article.last(3)
   end
 
   def contact
